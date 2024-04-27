@@ -19,6 +19,7 @@
 }
 
 </style>
+
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="collapse navbar-collapse" id="navbarNav">

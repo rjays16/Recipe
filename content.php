@@ -18,7 +18,8 @@
     margin-left: -5%;
 }
 
-.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes, .thoughts {
+.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes, .thoughts, .store, 
+.reheat{
     margin-left: -5%;
 }
 
@@ -220,13 +221,55 @@
     line-height: 30px;
     color: #064781;
 }
-
 .thoughts_container p{
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
 }
+.store_content img {
+    height: 40px;
+}
+.store_content {
+    margin-top: 40px;
+}
+.store_content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #064781;
+}
+.store_content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
 
+.reheat_content img {
+    height: 40px;
+}
+.reheat_content {
+    margin-top: 40px;
+}
+.reheat_content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #064781;
+}
+.reheat_content p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.reheat_content ul {
+    font-weight: 400;
+    font-size: 14px;
+}
+.reheat_content_methods img{
+    height: 25px;
+}
 </style>
 
 
@@ -408,6 +451,67 @@
                             satisfying and versatile dish that can be enjoyed as a comforting weeknight meal or dressed up for a special occasion.
                         </p>
                         <img src="Images/content/kelly.png"><small><b> Kelly Tillotson</b><small>
+                        <div style="height: 20px;"></div>    
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="store">
+                <div class="store_content">
+                    <img src="Images/content/store.png" class="float-left mr-3">
+                     <div>
+                        <h3>How to Store or Freeze Gnocchi with Roasted Red Pepper Sauce Recipe</h3>
+                        <br>
+                        <p><b>Storing Leftovers:</b> Allow the gnocchi with roasted red pepper sauce to cool completely before 
+                        transferring it to an airtight container. Store in the refrigerator for up to 3-4 days.<br></p>
+                        
+                        <p><b>Freezing Instructions:</b> To freeze, portion the cooled gnocchi and sauce into freezer-safe containers 
+                        or resealable plastic bags. Make sure to remove as much air as possible to prevent freezer burn. Label with the 
+                        date and freeze for up to 2-3 months.<br></p>
+                            
+                        <p><b>Thawing and Reheating:</b> When ready to enjoy, thaw the frozen gnocchi overnight in the refrigerator. 
+                        Reheat gently in a skillet over medium heat, stirring occasionally, until heated through. Alternatively, 
+                        microwave in short intervals, stirring in between, until warmed to your liking. Serve hot with a sprinkle of 
+                        Parmesan cheese and fresh basil leaves for garnish.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="reheat">
+            <hr>
+                <div class="reheat_content">
+                    <img src="Images/content/reheat.png" class="float-left mr-3">
+                     <div>
+                        <h3>How To Reheats Leftovers</h3>
+                        <br>
+                        <div class="reheat_content_methods">
+                        <img src="Images/content/1.png" class="float-left mr-1"><p><b> Stovetop Method:</b></p>
+                        <ul>
+                            <li>Place a skillet over medium heat and add the leftover gnocchi with roasted red pepper sauce.</li>
+                            <li>Add a splash of water or broth to loosen the sauce if needed.</li>
+                            <li>Stir occasionally until the dish is heated through, about 5-7 minutes.</li>
+                            <li>Taste and adjust seasoning with salt and pepper if necessary with the creamy gnocchi</li>
+                        </ul>
+                        <br>
+                        <img src="Images/content/2.png" class="float-left mr-1"><p><b> Microwave Method:</b></p>
+                        <ul>
+                            <li>Transfer the desired portion of leftover gnocchi and sauce to a microwave-safe dish.</li>
+                            <li>Cover loosely with a microwave-safe lid or damp paper towel to prevent splatters.</li>
+                            <li>Microwave on high in 30-second intervals, stirring in between, until heated through.</li>
+                            <li>Check the temperature and continue heating until piping hot.</li>
+
+                        </ul>
+                        <br>
+                        <img src="Images/content/3.png" class="float-left mr-1"><p><b> Oven Method (for Larger Portions):</b></p>
+                        <ul>
+                            <li>Preheat the oven to 350°F (175°C).</li>
+                            <li>Transfer the leftover gnocchi with roasted red pepper sauce to an oven-safe dish.</li>
+                            <li>Cover tightly with foil to prevent drying out.</li>
+                            <li>Bake in the preheated oven for 15-20 minutes, or until heated through.</li>
+                            <li>Serve hot with a sprinkle of Parmesan cheese and fresh basil leaves for garnish.</li>
+                        </ul>
+                        <br>
+                    </div>
                     </div>
                 </div>
             </div>

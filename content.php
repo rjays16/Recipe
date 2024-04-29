@@ -18,7 +18,7 @@
     margin-left: -5%;
 }
 
-.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust {
+.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost {
     margin-left: -5%;
 }
 
@@ -137,6 +137,51 @@
     line-height: 28px;
 }
 
+.cost {
+    display: flex;
+    gap: 5%;
+    background-color: #C7F6C7;
+    border-right: 8px solid #5BD1B5; 
+    border-bottom: 8px solid #5BD1B5;
+}
+
+.cost_content img {
+    height: 40px;
+}
+
+.cost_content {
+    margin-top: 40px;
+    display: flex;
+}
+
+.cost_content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.cost_content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.overall img{
+    height: 20px;
+}
+
+.overall {
+    float: left; 
+}
+.dollar_sign img{
+    height: 20px;
+}
+
+.dollar_sign {
+    float: right;
+    margin-right: 120px;
+}
 </style>
 
 
@@ -237,6 +282,29 @@
                 our community and the dedication of our team, delivering recipes you can confidently recreate in your kitchen. With a 
                 track record of satisfied cooks, this recipe guarantees success and satisfaction every time.
                 </p>
+            </div> 
+            <div style="height: 20px;"></div>
+            <div class="cost">
+                <div class="cost_content">
+                    <img src="Images/content/money.png" class="float-left mr-3">
+                     <div>
+                        <h3>Is Gnocchi with Roasted Red Pepper Sauce Recipe Economical for Home Cooking:</h3>
+                        <br>
+                        <p>This <b>Gnocchi with Roasted Red Pepper Sauce</b> Recipe offers excellent value for households. With simple 
+                            ingredients like gnocchi, <b>red bell peppers</b>, and <b>canned tomatoes</b>, it's budget-friendly. The versatility 
+                            allows for substitutions based on what's on hand, reducing waste.
+                        </p>
+                        <div class="overall">
+                            <img src="Images/content/overall.png">
+                            <small>Overall Verdict: 9/10. </small>
+                        </div>
+                        <div class="dollar_sign" class="float-right">
+                            <img src="Images/content/dollar_sign.png">
+                            <small>Approx. cost for a household of 4: <b>$12-15.</b></small>
+                            <div style="height: 40px;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-3">

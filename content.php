@@ -18,7 +18,7 @@
     margin-left: -5%;
 }
 
-.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes {
+.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes, .thoughts {
     margin-left: -5%;
 }
 
@@ -207,6 +207,26 @@
     text-decoration-color: #E5B64C;
     line-height: 3px;
 }
+.thoughts{
+    border: 2px solid #C3EBFF;
+}
+.thoughts_container {
+    margin-top: 40px;
+    display: flex;
+}
+.thoughts_container h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    color: #064781;
+}
+
+.thoughts_container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
 </style>
 
 
@@ -371,6 +391,23 @@
                         before baking until crispy and caramelized. The sweet, salty, and savory flavors make these irresistible bites 
                         the perfect accompaniment to the rich gnocchi dish.
                     </p>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="thoughts">
+                <div class="thoughts_container">
+                    <p class="float-left mr-5"></p>
+                     <div>
+                        <h3>Random Fact about Gnocchi with Roasted Red Pepper Sauce Recipe:</h3>
+                        <br>
+                        <p>This Gnocchi with Roasted Red Pepper Sauce Recipe is a culinary delight, combining pillowy gnocchi 
+                            with the bold flavors of roasted red peppers. The sauce, infused with aromatic garlic and herbs, elevates 
+                            the dish to a new level of sophistication. However, I would suggest enhancing the depth of flavor by adding 
+                            a splash of balsamic vinegar or a sprinkle of red pepper flakes for a subtle kick. Overall, it's a 
+                            satisfying and versatile dish that can be enjoyed as a comforting weeknight meal or dressed up for a special occasion.
+                        </p>
+                        <img src="Images/content/kelly.png"><small><b> Kelly Tillotson</b><small>
                     </div>
                 </div>
             </div>

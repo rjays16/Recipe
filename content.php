@@ -18,7 +18,7 @@
     margin-left: -5%;
 }
 
-.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random {
+.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust {
     margin-left: -5%;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .facts {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
 }
 
@@ -113,11 +113,30 @@
 }
 
 .facts p{
-    font-weight: 200;
+    font-weight: 400;
     font-style: italic;
     font-size: 16px;
     line-height: 28px;
 }
+
+.trust img{
+    width: 900px;
+}
+
+.trust h3 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700; 
+    font-size: 24px; 
+    line-height: 30px; 
+    color: #064781; 
+}
+
+.trust p{
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 28px;
+}
+
 </style>
 
 
@@ -203,11 +222,23 @@
                         and <b>egg?</b> However, variations like ricotta or semolina gnocchi exist. The addition of <b>roasted red pepper 
                         sauce to gnocchi</b> provides a unique twist, offering a balance of sweetness and smokiness. This dish showcases 
                         the culinary creativity thatcomes from blending different flavors and textures
-                    </p>
+                        </p>
                     </div>
                 </div>
             </div>
+            <div style="height: 20px;"></div>
+            <div class="trust">
+                <img src="Images/content/trust.png">
+                <center style="margin-top: 20px;"><h3>Why trust this Gnocchi with Roasted Red Pepper Sauce Recipe</h3></center>
+                <br>
+                <p>This <b>Gnocchi with Roasted Red Pepper Sauce Recipe</b> embodies authenticity and reliability. Crafted by real users and 
+                meticulously vetted by our experienced editors, it ensures quality and taste. Each ingredient, from handpicked red bell 
+                peppers to fragrant basil leaves, is selected with care, promising a flavorful experience. Trust in the expertise of 
+                our community and the dedication of our team, delivering recipes you can confidently recreate in your kitchen. With a 
+                track record of satisfied cooks, this recipe guarantees success and satisfaction every time.
+                </p>
             </div>
+        </div>
         <div class="col-md-3">
             <div class="right-side">
                 <img src="Images/content/ads.png">

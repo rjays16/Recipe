@@ -11,14 +11,14 @@
 }
 
 .container {
-  width: 100%;
+    width: 100%;
 }
 
 .center {
     margin-left: -5%;
 }
 
-.author, .rating, .topics, .menu, .food {
+.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random {
     margin-left: -5%;
 }
 
@@ -37,10 +37,10 @@
 }
 
 .rating u {
-        font-size: 16px;
-        text-decoration: underline;
-        text-decoration-color: #E5B64C;
-        line-height: 3px;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #E5B64C;
+    line-height: 3px;
 }
 
 .rating span {
@@ -58,7 +58,7 @@
     background-color: #FDFBF0;
 }
 .menu button {
-        margin-right: 3%;
+    margin-right: 3%;
 }
 .menu_button_left{
     background-color: #FDFBF0; 
@@ -73,13 +73,50 @@
     width: 900px;
 }
 .save_button {
-        background-color: #BD081C; 
-        border: none; 
-        border-radius: 5px;
-        position: absolute;
-        top: 220px;
-        margin-left: 2%;
-        z-index: 2; 
+    background-color: #BD081C; 
+    border: none; 
+    border-radius: 5px;
+    position: absolute;
+    top: 220px;
+    margin-left: 2%;
+    z-index: 2; 
+}
+.photo_bar {
+    display: flex;
+    gap: 5%;
+}
+.photo_bar img {
+    width: 112.5px;
+}
+.text_content_random {
+    display: flex;
+    gap: 5%;
+    background-color: #F2F9FF;
+}
+
+.facts img {
+    height: 40px;
+}
+
+.facts {
+    margin-top: 50px;
+    display: flex;
+}
+
+.facts h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+    color: #064781;
+}
+
+.facts p{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 28px;
 }
 </style>
 
@@ -137,7 +174,40 @@
                 <button class="save_button"> <img src="Images/content/pinterest.png"> Save</button>
                 <img class="food_image" src="Images/content/food.png">
             </div>
-        </div>
+            <div class="photo_bar">
+                <img src="Images/content/add_photo.png"> 
+                <img src="Images/content/1st.png">
+                <img src="Images/content/2nd.png">
+                <img src="Images/content/3rd.png">
+                <img src="Images/content/4th.png">
+                <img src="Images/content/last.png">
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="text_content">
+                AToday, I want to share with you a delightful gnocchi recipe that's bursting with flavor: Gnocchi with Roasted Red Pepper 
+                Sauce. This dish combines pillowy gnocchi with a rich and savory roasted red pepper sauce, creating a comforting and 
+                satisfying meal that's perfect for any occasion. The roasted red peppers add a sweet and smoky flavor to the sauce, while the diced 
+                tomatoes provide a bright and tangy contrast. With aromatic garlic, onions, and a blend of herbs, every bite is packed with 
+                deliciousness. Plus, a generous sprinkle of Parmesan cheese adds a creamy and nutty finish, elevating the dish to new heights. 
+                Whether you're cooking for a cozy dinner at home or entertaining guests, this Gnocchi with Roasted Red Pepper Sauce is sure to 
+                impress!
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="text_content_random">
+                <div class="facts">
+                    <img src="Images/content/facts.png" class="float-left mr-3">
+                     <div>
+                        <h3>Random Fact about Gnocchi with Roasted Red Pepper Sauce Recipe:</h3>
+                        <br>
+                        <p>Did you know that <b>gnocchi</b> originated in Italy and is traditionally made with potatoes, <b>flour</b>, 
+                        and <b>egg?</b> However, variations like ricotta or semolina gnocchi exist. The addition of <b>roasted red pepper 
+                        sauce to gnocchi</b> provides a unique twist, offering a balance of sweetness and smokiness. This dish showcases 
+                        the culinary creativity thatcomes from blending different flavors and textures
+                    </p>
+                    </div>
+                </div>
+            </div>
+            </div>
         <div class="col-md-3">
             <div class="right-side">
                 <img src="Images/content/ads.png">

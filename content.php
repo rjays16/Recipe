@@ -18,7 +18,7 @@
     margin-left: -5%;
 }
 
-.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost {
+.author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes {
     margin-left: -5%;
 }
 
@@ -161,16 +161,14 @@
     line-height: 30px;
 }
 
-.cost_content p{
+.cost_content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
 }
-
-.overall img{
+.overall img {
     height: 20px;
 }
-
 .overall {
     float: left; 
 }
@@ -181,6 +179,33 @@
 .dollar_sign {
     float: right;
     margin-right: 120px;
+}
+.dish_content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.dish_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dish_horizon{
+    border: 4px solid #F2F0DF; 
+}
+.dish_image img {
+    float: left;
+    margin-right: 10px;
+}
+
+.dish_content {
+    flex-grow: 1;
+}
+.dish_content u {
+    text-decoration: underline;
+    text-decoration-color: #E5B64C;
+    line-height: 3px;
 }
 </style>
 
@@ -303,6 +328,49 @@
                             <small>Approx. cost for a household of 4: <b>$12-15.</b></small>
                             <div style="height: 40px;"></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="dishes">
+                <div class="dish_content">
+                    <img src="Images/content/dish.png" class="float-left mr-3">
+                </div>
+                <div>
+                    <h3>Enhance Your Gnocchi Experience with These Unique Side Dishes:</h3>
+                </div>
+                <br>
+                <hr class="dish_horizon">
+                <div class="dish_container">
+                    <div class="dish_image">
+                        <img src="Images/content/dish1.png">
+                    </div>
+                    <div class="dish_content">
+                        <p><b><u>Pesto-Stuffed Mushrooms:</u></b> Hollow out cremini mushrooms and fill them with a flavorful mixture of 
+                            pesto, breadcrumbs, and Parmesan cheese. Bake until golden brown for a savory and indulgent appetizer 
+                            that pairs perfectly with the creamy gnocchi.</p>
+                    </div>
+                </div>
+                <div class="dish_container">
+                    <div class="dish_image">
+                        <img src="Images/content/dish2.png">
+                    </div>
+                    <div class="dish_content">
+                        <p> <b><u>Citrusy Kale Salad:</u></b>. Massage kale leaves with a zesty dressing made from lemon juice, olive oil, and a touch 
+                        of honey. Toss in segments of orange and grapefruit, along with crunchy toasted almonds and creamy goat cheese for a refreshing 
+                        side that adds brightness to the meal.
+                    </p>
+                    </div>
+                </div>
+                <div class="dish_container">
+                    <div class="dish_image">
+                        <img src="Images/content/dish3.png">
+                    </div>
+                    <div class="Smoky Bacon-Wrapped Dates">
+                        <p><b><u>Pesto-Stuffed Mushrooms:</u></b> Stuff dates with tangy blue cheese and wrap them in smoky bacon 
+                        before baking until crispy and caramelized. The sweet, salty, and savory flavors make these irresistible bites 
+                        the perfect accompaniment to the rich gnocchi dish.
+                    </p>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@
     margin-left: -5%;
 }
 
-.author, .rating, .topics {
+.author, .rating, .topics, .menu, .food {
     margin-left: -5%;
 }
 
@@ -53,6 +53,33 @@
     background-color: white; 
     border: 2px solid #ECECEC; 
     border-radius: 12px;
+}
+.menu {
+    background-color: #FDFBF0;
+}
+.menu button {
+        margin-right: 3%;
+}
+.menu_button_left{
+    background-color: #FDFBF0; 
+    border: none
+}
+.menu_button_right{
+    background-color: #FDFBF0; 
+    border: none;
+    float:right;
+}
+.food_image {
+    width: 900px;
+}
+.save_button {
+        background-color: #BD081C; 
+        border: none; 
+        border-radius: 5px;
+        position: absolute;
+        top: 220px;
+        margin-left: 2%;
+        z-index: 2; 
 }
 </style>
 
@@ -96,6 +123,19 @@
                     <button class="topics_button">Apple Cake</button>
                     <button class="topics_button">Majui Cake</button>
                     <button class="topics_button">Quick Cake Recipes</button>
+            </div>
+            <div style="height: 10px;"></div>
+            <div class="menu">
+                    <button class="menu_button_left">  <img src="Images/content/save.png"> Save</button>
+                    <button class="menu_button_left">  <img src="Images/content/rate.png"> Rate</button>
+                    <button class="menu_button_left">  <img src="Images/content/print.png"> Print</button>
+                    <button class="menu_button_left">  <img src="Images/content/share.png"> Share</button>
+                    <button class="menu_button_right"> <img src="Images/content/editorial.png"> Editorial Guideline</button>
+                    <button class="menu_button_right"> <img src="Images/content/expert.png"> Expert Verified</button>
+            </div>
+            <div class="food">
+                <button class="save_button"> <img src="Images/content/pinterest.png"> Save</button>
+                <img class="food_image" src="Images/content/food.png">
             </div>
         </div>
         <div class="col-md-3">

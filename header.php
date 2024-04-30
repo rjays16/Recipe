@@ -35,7 +35,7 @@
         border: none;
         margin-left: 200px;
       }
-      .btn-primary{
+      .go{
         display: none;
       }
     }
@@ -58,7 +58,7 @@
           <img src="Images/Header/logo.png" alt="Logo" height="40">
           <div class="search-bar ml-3 position-relative d-flex align-items-center">
             <input type="text" class="form-control" placeholder="Find a recipe">
-            <button class="btn btn-primary ml-2">Go</button>
+            <button class="btn btn-primary ml-2 go">Go</button>
           </div>
         </div>
         <!-- Forum Button -->

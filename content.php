@@ -19,7 +19,7 @@
 }
 
 .author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes, .thoughts, .store, 
-.reheat, .gnocchi, .reviews{
+.reheat, .gnocchi, .reviews, .positive_review{
     margin-left: -5%;
 }
 .author img, .author span {
@@ -335,8 +335,15 @@
     align-items: start;
     z-index: 1;
 }
-
-
+.positive_review p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.positive_review u {
+    text-decoration: underline;
+    text-decoration-color: #E5B64C;
+    line-height: 3px;
+}
 </style>
 
 
@@ -678,6 +685,29 @@
                         <img src="Images/content/3_stars.png"><br>
                         <img src="Images/content/2_stars.png"><br>
                         <img src="Images/content/1_star.png"><br>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="positive_review">
+                <div class="positive_review_content">
+                    <img src="Images/content/title.png" class="float-left mr-3">
+                     <div>
+                     <img src="Images/content/full_star.png">
+                     <div style="width:400px;">
+                        <br>
+                        <p>This is a great, easy, go-to recipe!  This peach ice cream is a dream! 
+                            The texture is creamy and the flavor is bursting with fresh peach goodness. 
+                            It's the perfect treat for hot summer days. I couldn't stop scooping!
+                            Definitely a new favorite in our household.<p>
+                                <br>
+                    </div>          
+                    <div class="float-left">
+                            <img src="Images/content/rachel.png"><span class="text-primary" style="font-size:16px"> Rachel Yakes</span>
+                        </div>
+                        <div class="float-right">
+                            <img src="Images/content/thumbs_up.png"><span style="font-size:16px"> <u>Helpful</u></span>
+                        </div>              
                     </div>
                 </div>
             </div>

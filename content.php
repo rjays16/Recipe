@@ -19,7 +19,7 @@
 }
 
 .author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes, .thoughts, .store, 
-.reheat{
+.reheat, .gnocchi{
     margin-left: -5%;
 }
 
@@ -244,7 +244,6 @@
     font-size: 14px;
     line-height: 28px;
 }
-
 .reheat_content img {
     height: 40px;
 }
@@ -270,6 +269,28 @@
 .reheat_content_methods img{
     height: 25px;
 }
+.gnocchi img {
+    height: 40px;
+}
+.gnocchi {
+    margin-top: 40px;
+}
+.gnocchi h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #064781;
+}
+.gnocchi p {
+    font-weight: 400;
+    font-size: 14px;
+}
+.gnocchi li {
+    font-weight: 400;
+    font-size: 14px;
+}
+
 </style>
 
 
@@ -512,6 +533,38 @@
                         </ul>
                         <br>
                     </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="gnocchi">
+                <div class="gnocchi_content">
+                    <img src="Images/content/gnocchi.png" class="float-left mr-3">
+                     <div>
+                        <h3>Gnocchi with Roasted Red Pepper Sauce Recipe : Healthy or Unhealthy?</h3>
+                        <br>
+                        <p>This Gnocchi with Roasted Red Pepper Sauce Recipe offers a balanced mix of carbohydrates from the gnocchi, vegetables from the red 
+                            bell peppers and tomatoes, and healthy fats from the olive oil. However, the dish may be considered somewhat unhealthy due to the 
+                            high carbohydrate content from the gnocchi and the addition of Parmesan cheese.
+                        </p>
+                        <p><b>To make this recipe healthier, consider the following suggestions:</b><p>
+                        <br>
+                        <ol>
+                            <li><p class="text-primary"><b>Increase Vegetable Content:</b></p>
+                                <p>Add more vegetables such as spinach, kale, or mushrooms to increase the nutrient density and fiber content of the dish.</p>
+                            </li>
+                            <li><p class="text-primary"><b>Use Whole Wheat Gnocchi:</b></p>
+                                <p>Opt for whole wheat gnocchi instead of traditional gnocchi to increase the fiber content and provide 
+                                    more sustained energy.</p>
+                            </li>
+                            <li><p class="text-primary"><b>Reduce Cheese:</b></p>
+                                <p>Limit the amount of Parmesan cheese or opt for a lighter cheese alternative to reduce saturated fat 
+                                    and calorie intake.</p>
+                            </li>
+                            <li><p class="text-primary"><b>Use Fresh Herbs:</b></p>
+                                <p>Replace dried herbs with fresh herbs like basil and oregano to boost flavor without adding extra sodium.</p>
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>

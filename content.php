@@ -19,36 +19,30 @@
 }
 
 .author, .rating, .topics, .menu, .food, .photo_bar, .text_content, .text_content_random, .trust, .cost, .dishes, .thoughts, .store, 
-.reheat, .gnocchi{
+.reheat, .gnocchi, .reviews{
     margin-left: -5%;
 }
-
 .author img, .author span {
     vertical-align: middle;
 }
-
 .author span {
     font-size: 14px;
     margin-right: 5px; 
 }
-
 .author button {
     font-size: 14px; 
     padding: 5px 10px;
 }
-
 .rating u {
     font-size: 16px;
     text-decoration: underline;
     text-decoration-color: #E5B64C;
     line-height: 3px;
 }
-
 .rating span {
     color: black; 
     margin-left: 5%;
 }
-
 .topics_button {
     color: blue; 
     background-color: white; 
@@ -279,17 +273,69 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    line-height: 30px;
     color: #064781;
 }
 .gnocchi p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
-.gnocchi li {
+.gnocchi_content p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
+.gnocchi_content li {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.reviews h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #064781;
+}
+
+.reviews h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #064781;
+}
+
+.reviews_content {
+    flex-grow: 1;
+}
+.reviews_content p {
+    font-weight: 400;
+    font-size: 20px;
+}
+.reviews_button {
+    font-size: 14px; /* Increase font size for better visibility */
+    color: blue; 
+    background-color: white; 
+    border: 2px solid #ECECEC; 
+    border-radius: 20px;
+    margin-right: 4%;
+}
+.custom-textarea {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    resize: vertical; 
+}
+
+.custom-textarea::placeholder {
+    color: #999; 
+}
+.photo-info {
+    display: flex;
+    align-items: start;
+    z-index: 1;
+}
+
 
 </style>
 
@@ -543,10 +589,10 @@
                      <div>
                         <h3>Gnocchi with Roasted Red Pepper Sauce Recipe : Healthy or Unhealthy?</h3>
                         <br>
-                        <p>This Gnocchi with Roasted Red Pepper Sauce Recipe offers a balanced mix of carbohydrates from the gnocchi, vegetables from the red 
+                            <p>This Gnocchi with Roasted Red Pepper Sauce Recipe offers a balanced mix of carbohydrates from the gnocchi, vegetables from the red 
                             bell peppers and tomatoes, and healthy fats from the olive oil. However, the dish may be considered somewhat unhealthy due to the 
-                            high carbohydrate content from the gnocchi and the addition of Parmesan cheese.
-                        </p>
+                            high carbohydrate content from the gnocchi and the addition of Parmesan cheese.</p>
+                        
                         <p><b>To make this recipe healthier, consider the following suggestions:</b><p>
                         <br>
                         <ol>
@@ -554,17 +600,84 @@
                                 <p>Add more vegetables such as spinach, kale, or mushrooms to increase the nutrient density and fiber content of the dish.</p>
                             </li>
                             <li><p class="text-primary"><b>Use Whole Wheat Gnocchi:</b></p>
-                                <p>Opt for whole wheat gnocchi instead of traditional gnocchi to increase the fiber content and provide 
-                                    more sustained energy.</p>
+                                Opt for whole wheat gnocchi instead of traditional gnocchi to increase the fiber content and provide 
+                                    more sustained energy.
                             </li>
                             <li><p class="text-primary"><b>Reduce Cheese:</b></p>
                                 <p>Limit the amount of Parmesan cheese or opt for a lighter cheese alternative to reduce saturated fat 
                                     and calorie intake.</p>
                             </li>
                             <li><p class="text-primary"><b>Use Fresh Herbs:</b></p>
-                                <p>Replace dried herbs with fresh herbs like basil and oregano to boost flavor without adding extra sodium.</p>
+                                Replace dried herbs with fresh herbs like basil and oregano to boost flavor without adding extra sodium.
                             </li>
                         </ol>
+                        <p>By incorporating these changes, you can transform this recipe into a healthier option without compromising on taste and satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+            <div class="reviews">
+                <div class="reviews_content">
+                    <h3>Reviews (273)</h3><br>
+                    <img src="Images/content/neko.png" class="float-left mr-3">
+                     <div>
+                        <h4>Neko-cyann</h4>
+                        <br>
+                        <div style="margin-left:5.5%;">
+                            <p>Your Rating <img src="Images/content/star_review_rating.png"><span class="text-muted"> |</span> 
+                            <span class="text-primary"> Good</span></p>
+                            <hr class="muted">
+                            <span style="font-size:16px;">Your Review </span>
+                            <button class="reviews_button"> Enjoyable with modifications </button>
+                            <button class="reviews_button"> Requires flavor adjustments </button>
+                            <button class="reviews_button"> Worth a second try </button>
+                            <button class="reviews_button" style="margin-left:11%"> Almost a favorite </button>
+                            <div style="height: 30px;"></div>
+                            <textarea class="form-control custom-textarea" placeholder="What did you think about this recipe? Did you make any changes or notes?" rows="3"></textarea>
+                            <div style="height: 30px;"></div>
+                            <div class="photo-info d-flex align-items-start">
+                                <div class="float-left">
+                                    <label for="file-upload">
+                                        <img src="Images/content/add_photo_optional.png" style="cursor: pointer;" id="upload-image">
+                                    </label>
+                                    <input type="file" id="file-upload" style="display: none;">
+                                </div>
+                                <div class="ml-3">
+                                    <p>Images must be: 
+                                        <ul>
+                                            <li>PNG, GIF, JPEGs only</li>
+                                            <li>Minimum dimensions 960x960</li>
+                                            <li>Max file size: 30MB</li> 
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="float-left">
+                                <button type="button" class="btn btn-primary btn-lg btn-block" style="width:375px;">Submit</button>
+                            </div>
+                            <div class="float-right">
+                            <button type="button" class="btn btn-lg btn-block text-dark" style="width:400px; background-color: #F3F3F3;">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="height: 50px;"></div>
+            <div class="star_review">
+                <div class="star_content">
+                    <p>
+                    <hr class="muted">
+                    <img src="Images/content/star_review_rating.png" class="float-left mr-3">
+                     <div>
+                        <p> 4.7 out of 5 </p>
+                        <p> <b>371 Ratings</b></p>
+                        <br>
+                        <img src="Images/content/5_stars.png"><br>
+                        <img src="Images/content/4_stars.png"><br>
+                        <img src="Images/content/3_stars.png"><br>
+                        <img src="Images/content/2_stars.png"><br>
+                        <img src="Images/content/1_star.png"><br>
                     </div>
                 </div>
             </div>

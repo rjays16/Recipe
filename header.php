@@ -32,6 +32,11 @@
       }
       .search-bar input[type="text"] {
         width: calc(100% - 90px);
+        border: none;
+        margin-left: 200px;
+      }
+      .btn-primary{
+        display: none;
       }
     }
     
@@ -42,6 +47,7 @@
         padding-right: 5px;
       }
     }
+    
   </style>
   
 <div class="container">

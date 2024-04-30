@@ -344,6 +344,13 @@
     text-decoration-color: #E5B64C;
     line-height: 3px;
 }
+
+@media (max-width: 775px){
+  .col-md-2 {
+    display: none;
+  }
+}
+
 </style>
 
 
